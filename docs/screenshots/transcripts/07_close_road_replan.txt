@@ -1,0 +1,282 @@
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+No scenario loaded.
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ LOAD SCENARIO
+==================================================
+1. Normal operations
+2. Capacity shock + road closure
+3. Large-data stress
+4. Load from CSV file
+0. Back
+
+Choice: 
+Loaded 'Normal Relief Operations': 5 shelters, 28 packages, 4 vehicles, 8 nodes.
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Normal Relief Operations
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ PLAN OPERATION
+==================================================
+1. Knapsack DP (optimal, O(nW))
+2. Greedy (fast, may miss value)
+3. Branch & Bound (optimal, prunes)
+4. Compare all three
+0. Back
+
+Choice: 
+==================================================
+ RELIEF OPERATION PLAN
+==================================================
+Scenario : Normal Relief Operations
+Algorithm: Knapsack DP
+
+Vehicle assignments
+Veh   Shelter                   Load  Value     Dist  Route
+----------------------------------------------------------------------
+11    North Clinic          59/60 kg    410     6km  0 > 2
+      packages: 501 502 503 506 507
+14    Riverside School      50/50 kg    270     9km  0 > 1 > 3
+      packages: 101 103 105 106
+12    City Stadium          43/45 kg    176    13km  0 > 2 > 4 > 6
+      packages: 301 303 305
+13    Hilltop Temple        26/30 kg     96    16km  0 > 2 > 4 > 5
+      packages: 201 204
+
+Shelter outcomes
+ID   Name                  Urg   Distance  Asked    Got  Filled
+----------------------------------------------------------------
+1    Riverside School        9        9km    405    270   66.7%
+2    Hilltop Temple          6       16km    180     96   53.3%
+3    City Stadium            8       13km    408    176   43.1%
+4    Market Hall             5       17km    100      0    0.0%
+5    North Clinic           10        6km    550    410   74.5%
+
+Totals: value 952 | weight 178 kg | 14 packages sent, 14 pending
+Fairness: worst shelter 0.0% | average 47.5% | unreachable shelters 0
+Cost: 0.012 ms | 1180 operations | peak memory 1.9 KB
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Normal Relief Operations
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ ROUTES & ROAD DAMAGE
+==================================================
+1. View routes
+2. Close a road
+3. Reopen a road
+4. Re-plan (Knapsack DP)
+5. View road network
+0. Back
+
+Choice: 
+==================================================
+ DELIVERY ROUTES
+==================================================
+Algorithm: Knapsack DP
+
+Vehicle 11   -> North Clinic             6 km  0 > 2
+Vehicle 14   -> Riverside School         9 km  0 > 1 > 3
+Vehicle 12   -> City Stadium            13 km  0 > 2 > 4 > 6
+Vehicle 13   -> Hilltop Temple          16 km  0 > 2 > 4 > 5
+
+==================================================
+ ROUTES & ROAD DAMAGE
+==================================================
+1. View routes
+2. Close a road
+3. Reopen a road
+4. Re-plan (Knapsack DP)
+5. View road network
+0. Back
+
+Choice: From node: To node  : 
+Road 4-6 is now CLOSED. Choose 'Re-plan' to update routes.
+
+==================================================
+ ROUTES & ROAD DAMAGE
+==================================================
+1. View routes
+2. Close a road
+3. Reopen a road
+4. Re-plan (Knapsack DP)
+5. View road network
+0. Back
+
+Choice: 
+==================================================
+ RELIEF OPERATION PLAN
+==================================================
+Scenario : Normal Relief Operations
+Algorithm: Knapsack DP
+
+Vehicle assignments
+Veh   Shelter                   Load  Value     Dist  Route
+----------------------------------------------------------------------
+11    North Clinic          59/60 kg    410     6km  0 > 2
+      packages: 501 502 503 506 507
+14    Riverside School      50/50 kg    270     9km  0 > 1 > 3
+      packages: 101 103 105 106
+12    City Stadium          43/45 kg    176    16km  0 > 1 > 3 > 6
+      packages: 301 303 305
+13    Hilltop Temple        26/30 kg     96    16km  0 > 2 > 4 > 5
+      packages: 201 204
+
+Shelter outcomes
+ID   Name                  Urg   Distance  Asked    Got  Filled
+----------------------------------------------------------------
+1    Riverside School        9        9km    405    270   66.7%
+2    Hilltop Temple          6       16km    180     96   53.3%
+3    City Stadium            8       16km    408    176   43.1%
+4    Market Hall             5       20km    100      0    0.0%
+5    North Clinic           10        6km    550    410   74.5%
+
+Totals: value 952 | weight 178 kg | 14 packages sent, 14 pending
+Fairness: worst shelter 0.0% | average 47.5% | unreachable shelters 0
+Cost: 0.014 ms | 1179 operations | peak memory 1.9 KB
+
+==================================================
+ ROUTES & ROAD DAMAGE
+==================================================
+1. View routes
+2. Close a road
+3. Reopen a road
+4. Re-plan (Knapsack DP)
+5. View road network
+0. Back
+
+Choice: 
+==================================================
+ DELIVERY ROUTES
+==================================================
+Algorithm: Knapsack DP
+
+Vehicle 11   -> North Clinic             6 km  0 > 2
+Vehicle 14   -> Riverside School         9 km  0 > 1 > 3
+Vehicle 12   -> City Stadium            16 km  0 > 1 > 3 > 6
+Vehicle 13   -> Hilltop Temple          16 km  0 > 2 > 4 > 5
+
+==================================================
+ ROUTES & ROAD DAMAGE
+==================================================
+1. View routes
+2. Close a road
+3. Reopen a road
+4. Re-plan (Knapsack DP)
+5. View road network
+0. Back
+
+Choice: From node: To node  : 
+Road 4-6 is now open. Choose 'Re-plan' to update routes.
+
+==================================================
+ ROUTES & ROAD DAMAGE
+==================================================
+1. View routes
+2. Close a road
+3. Reopen a road
+4. Re-plan (Knapsack DP)
+5. View road network
+0. Back
+
+Choice: 
+==================================================
+ RELIEF OPERATION PLAN
+==================================================
+Scenario : Normal Relief Operations
+Algorithm: Knapsack DP
+
+Vehicle assignments
+Veh   Shelter                   Load  Value     Dist  Route
+----------------------------------------------------------------------
+11    North Clinic          59/60 kg    410     6km  0 > 2
+      packages: 501 502 503 506 507
+14    Riverside School      50/50 kg    270     9km  0 > 1 > 3
+      packages: 101 103 105 106
+12    City Stadium          43/45 kg    176    13km  0 > 2 > 4 > 6
+      packages: 301 303 305
+13    Hilltop Temple        26/30 kg     96    16km  0 > 2 > 4 > 5
+      packages: 201 204
+
+Shelter outcomes
+ID   Name                  Urg   Distance  Asked    Got  Filled
+----------------------------------------------------------------
+1    Riverside School        9        9km    405    270   66.7%
+2    Hilltop Temple          6       16km    180     96   53.3%
+3    City Stadium            8       13km    408    176   43.1%
+4    Market Hall             5       17km    100      0    0.0%
+5    North Clinic           10        6km    550    410   74.5%
+
+Totals: value 952 | weight 178 kg | 14 packages sent, 14 pending
+Fairness: worst shelter 0.0% | average 47.5% | unreachable shelters 0
+Cost: 0.007 ms | 1180 operations | peak memory 1.9 KB
+
+==================================================
+ ROUTES & ROAD DAMAGE
+==================================================
+1. View routes
+2. Close a road
+3. Reopen a road
+4. Re-plan (Knapsack DP)
+5. View road network
+0. Back
+
+Choice: 
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Normal Relief Operations
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+Goodbye.

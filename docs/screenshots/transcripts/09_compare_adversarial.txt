@@ -1,0 +1,74 @@
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+No scenario loaded.
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ LOAD SCENARIO
+==================================================
+1. Normal operations
+2. Capacity shock + road closure
+3. Large-data stress
+4. Load from CSV file
+0. Back
+
+Choice: File path (e.g. data/adversarial_greedy.csv): 
+Loaded 'Adversarial Greedy Trap': 1 shelters, 3 packages, 1 vehicles, 2 nodes.
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Adversarial Greedy Trap
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ ALGORITHM COMPARISON (SAME INPUT)
+==================================================
+Algorithm         Value    Gap%  Worst%  Pending   Time(ms)  Operations   Memory
+--------------------------------------------------------------------------------
+Knapsack DP         180    0.0%   64.3%        1      0.004         301   1.6 KB
+Greedy              100   44.4%   35.7%        2      0.003           7     32 B
+Branch & Bound      180    0.0%   64.3%        1      0.019           9  36.0 KB
+
+DP and Branch & Bound give the best load for each vehicle;
+Greedy may leave value behind (positive gap).
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Adversarial Greedy Trap
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+Goodbye.

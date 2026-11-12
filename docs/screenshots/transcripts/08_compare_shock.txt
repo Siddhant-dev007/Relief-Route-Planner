@@ -1,0 +1,74 @@
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+No scenario loaded.
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ LOAD SCENARIO
+==================================================
+1. Normal operations
+2. Capacity shock + road closure
+3. Large-data stress
+4. Load from CSV file
+0. Back
+
+Choice: 
+Loaded 'Capacity Shock and Road Closure': 5 shelters, 31 packages, 4 vehicles, 8 nodes.
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Capacity Shock and Road Closure
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ ALGORITHM COMPARISON (SAME INPUT)
+==================================================
+Algorithm         Value    Gap%  Worst%  Pending   Time(ms)  Operations   Memory
+--------------------------------------------------------------------------------
+Knapsack DP         758    0.0%    0.0%       22      0.009         845   1.8 KB
+Greedy              728    4.0%    0.0%       22      0.005          87    128 B
+Branch & Bound      758    0.0%    0.0%       22      0.021         105  36.0 KB
+
+DP and Branch & Bound give the best load for each vehicle;
+Greedy may leave value behind (positive gap).
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Capacity Shock and Road Closure
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+Goodbye.

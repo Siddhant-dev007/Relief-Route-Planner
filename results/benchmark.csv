@@ -1,0 +1,52 @@
+Experiment,Algorithm,Profile,N,Capacity,Value,Optimal,GapPercent,TimeMs,Operations,MemoryBytes,Correct,Status
+SizeSweep,Knapsack DP,Random,10,120,335,335,0.00,0.001782,1200,5324,1,OK
+SizeSweep,Greedy,Random,10,120,319,335,4.78,0.001786,35,80,1,OK
+SizeSweep,Branch & Bound,Random,10,120,335,335,0.00,0.004792,40,36904,1,OK
+SizeSweep,Knapsack DP,Random,50,663,2139,2139,0.00,0.043009,33150,135456,1,OK
+SizeSweep,Greedy,Random,50,663,2127,2139,0.56,0.002445,275,400,1,OK
+SizeSweep,Branch & Bound,Random,50,663,2139,2139,0.00,0.006683,309,37064,1,OK
+SizeSweep,Knapsack DP,Random,100,1302,4070,4070,0.00,0.155104,130200,526412,1,OK
+SizeSweep,Greedy,Random,100,1302,4054,4070,0.39,0.005537,645,800,1,OK
+SizeSweep,Branch & Bound,Random,100,1302,4070,4070,0.00,0.030717,795,37264,1,OK
+SizeSweep,Knapsack DP,Random,250,3267,10198,10198,0.00,2.157786,816750,3281072,1,OK
+SizeSweep,Greedy,Random,250,3267,10193,10198,0.05,0.017687,1926,2000,1,OK
+SizeSweep,Branch & Bound,Random,250,3267,10198,10198,0.00,0.101741,2282,37864,1,OK
+SizeSweep,Knapsack DP,Random,500,6202,20584,20584,0.00,8.794922,3101000,12430812,1,OK
+SizeSweep,Greedy,Random,500,6202,20581,20584,0.01,0.044023,4346,4000,1,OK
+SizeSweep,Branch & Bound,Random,500,6202,20584,20584,0.00,0.391098,5277,71632,1,OK
+SizeSweep,Knapsack DP,Random,1000,12481,42299,42299,0.00,39.475830,12481000,49977928,1,OK
+SizeSweep,Greedy,Random,1000,12481,42297,42299,0.00,0.104283,9716,8000,1,OK
+SizeSweep,Branch & Bound,Random,1000,12481,42299,42299,0.00,0.843962,10009,73632,1,OK
+CapacitySweep,Knapsack DP,Random,200,100,1351,1351,0.00,0.046049,20000,81204,1,OK
+CapacitySweep,Greedy,Random,200,100,1351,1351,0.00,0.010809,1495,1600,1,OK
+CapacitySweep,Branch & Bound,Random,200,100,1351,1351,0.00,0.029536,1438,37664,1,OK
+CapacitySweep,Knapsack DP,Random,200,500,3363,3363,0.00,0.176432,100000,402804,1,OK
+CapacitySweep,Greedy,Random,200,500,3363,3363,0.00,0.010999,1495,1600,1,OK
+CapacitySweep,Branch & Bound,Random,200,500,3363,3363,0.00,0.027365,1445,37664,1,OK
+CapacitySweep,Knapsack DP,Random,200,1000,4832,4832,0.00,0.302964,200000,804804,1,OK
+CapacitySweep,Greedy,Random,200,1000,4832,4832,0.00,0.018723,1495,1600,1,OK
+CapacitySweep,Branch & Bound,Random,200,1000,4832,4832,0.00,0.033599,1467,37664,1,OK
+CapacitySweep,Knapsack DP,Random,200,2500,7963,7963,0.00,1.392539,500000,2010804,1,OK
+CapacitySweep,Greedy,Random,200,2500,7960,7963,0.04,0.020441,1495,1600,1,OK
+CapacitySweep,Branch & Bound,Random,200,2500,7963,7963,0.00,0.070453,1702,37664,1,OK
+CapacitySweep,Knapsack DP,Random,200,5000,10164,10164,0.00,2.863821,1000000,4020804,1,OK
+CapacitySweep,Greedy,Random,200,5000,10164,10164,0.00,0.010728,1495,1600,1,OK
+CapacitySweep,Branch & Bound,Random,200,5000,10164,10164,0.00,0.105034,1681,37664,1,OK
+Adversarial,Knapsack DP,GreedyTrap,3,100,180,180,0.00,0.000602,300,1616,1,OK
+Adversarial,Greedy,GreedyTrap,3,100,100,180,44.44,0.000222,6,24,1,OK
+Adversarial,Branch & Bound,GreedyTrap,3,100,180,180,0.00,0.001299,8,36876,1,OK
+Adversarial,Knapsack DP,GreedyTrap,10,100,180,180,0.00,0.001315,1000,4444,1,OK
+Adversarial,Greedy,GreedyTrap,10,100,100,180,44.44,0.000392,29,80,1,OK
+Adversarial,Branch & Bound,GreedyTrap,10,100,180,180,0.00,0.001091,32,36904,1,OK
+Adversarial,Knapsack DP,GreedyTrap,100,100,180,180,0.00,0.019880,10000,40804,1,OK
+Adversarial,Greedy,GreedyTrap,100,100,100,180,44.44,0.003417,456,800,1,OK
+Adversarial,Branch & Bound,GreedyTrap,100,100,180,180,0.00,0.005884,459,37264,1,OK
+Adversarial,Knapsack DP,Correlated,20,208,358,358,0.00,0.005341,4160,17556,1,OK
+Adversarial,Greedy,Correlated,20,208,358,358,0.00,0.000933,85,160,1,OK
+Adversarial,Branch & Bound,Correlated,20,208,358,358,0.00,0.010354,94,36944,1,OK
+Adversarial,Knapsack DP,Correlated,30,374,584,584,0.00,0.014098,11220,46500,1,OK
+Adversarial,Greedy,Correlated,30,374,573,584,1.88,0.001458,146,240,1,OK
+Adversarial,Branch & Bound,Correlated,30,374,584,584,0.00,0.008008,283,36984,1,OK
+Adversarial,Knapsack DP,Correlated,40,487,757,757,0.00,0.029471,19480,80032,1,OK
+Adversarial,Greedy,Correlated,40,487,736,757,2.77,0.001726,210,320,1,OK
+Adversarial,Branch & Bound,Correlated,40,487,757,757,0.00,20.381348,119533,4227232,1,OK

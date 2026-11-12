@@ -1,0 +1,67 @@
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+No scenario loaded.
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ MANUAL ENTRY
+==================================================
+Shelter urgency (1-10): ERROR: Enter a whole number.
+Shelter urgency (1-10): ERROR: Enter a number from 1 to 10.
+Shelter urgency (1-10): ERROR: Enter a number from 1 to 10.
+Shelter urgency (1-10): Number of packages (1-50): 
+Package 1
+  Supply type        :   Weight (kg, 1-10000):   Need severity (1-10): 
+Vehicle capacity (kg, 1-100000): ERROR: Enter a number from 1 to 100000.
+
+Vehicle capacity (kg, 1-100000): 
+==================================================
+ MANUAL ENTRY RESULTS
+==================================================
+
+Knapsack DP
+----------------------------------------
+  #1   Water                5 kg  value 45
+Total value 45 | weight 5/10 kg | 0.0020 ms | 10 ops
+
+Greedy
+----------------------------------------
+  #1   Water                5 kg  value 45
+Total value 45 | weight 5/10 kg | 0.0010 ms | 1 ops
+
+Branch & Bound
+----------------------------------------
+  #1   Water                5 kg  value 45
+Total value 45 | weight 5/10 kg | 0.0176 ms | 1 ops
+
+Greedy gap vs optimal: 0.0%
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+No scenario loaded.
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+Goodbye.

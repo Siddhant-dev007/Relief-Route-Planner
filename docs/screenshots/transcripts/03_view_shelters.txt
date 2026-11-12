@@ -1,0 +1,94 @@
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+No scenario loaded.
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ LOAD SCENARIO
+==================================================
+1. Normal operations
+2. Capacity shock + road closure
+3. Large-data stress
+4. Load from CSV file
+0. Back
+
+Choice: 
+Loaded 'Normal Relief Operations': 5 shelters, 28 packages, 4 vehicles, 8 nodes.
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Normal Relief Operations
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ VIEW SCENARIO
+==================================================
+Scenario: Normal Relief Operations
+
+1. Shelters
+2. Packages
+3. Vehicles
+4. Road network
+0. Back
+
+Choice: 
+ID   Name                     People Urgency  Node
+--------------------------------------------------
+1    Riverside School            450       9     3
+2    Hilltop Temple              220       6     5
+3    City Stadium                900       8     6
+4    Market Hall                 300       5     7
+5    North Clinic                150      10     2
+
+==================================================
+ VIEW SCENARIO
+==================================================
+Scenario: Normal Relief Operations
+
+1. Shelters
+2. Packages
+3. Vehicles
+4. Road network
+0. Back
+
+Choice: 
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Normal Relief Operations
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+Goodbye.

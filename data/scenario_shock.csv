@@ -1,0 +1,70 @@
+# Scenario 2 - Capacity shock and road closure
+# Same area as Scenario 1 after a second landslide:
+#   - roads 4-5 and 5-7 are destroyed, so Hilltop Temple (node 5)
+#     is cut off; road 1-3 is also gone, forcing longer routes
+#   - vehicle 12 is out of service, the others carry less
+#   - City Stadium receives evacuees: more demand, higher urgency
+NAME,Capacity Shock and Road Closure
+NODES,8
+DEPOT,0
+
+[SHELTERS]
+id,name,population,urgency,node
+1,Riverside School,450,9,3
+2,Hilltop Temple,220,6,5
+3,City Stadium,1400,10,6
+4,Market Hall,300,5,7
+5,North Clinic,150,10,2
+
+[PACKAGES]
+id,type,weight,severity,shelterId
+101,Food,20,8,1
+102,Water,25,9,1
+103,Medicine,8,10,1
+104,Blankets,15,6,1
+105,Hygiene kit,10,5,1
+106,Baby food,12,7,1
+201,Food,20,7,2
+202,Water,25,8,2
+203,Blankets,15,6,2
+204,First aid,6,9,2
+301,Food,20,8,3
+302,Water,25,9,3
+303,Medicine,8,9,3
+304,Tents,30,7,3
+305,Blankets,15,5,3
+306,Hygiene kit,10,4,3
+307,Water,25,9,3
+308,Food,20,8,3
+309,Medicine,8,10,3
+310,Tents,30,8,3
+401,Food,20,6,4
+402,Water,25,7,4
+403,Blankets,15,4,4
+404,Hygiene kit,10,3,4
+501,Medicine,8,10,5
+502,Oxygen,18,10,5
+503,First aid,6,9,5
+504,Water,25,8,5
+505,Food,20,6,5
+506,Blankets,15,5,5
+507,Baby food,12,7,5
+
+[VEHICLES]
+id,capacity,available
+11,40,1
+12,45,0
+13,30,1
+14,35,1
+
+[ROADS]
+from,to,distance
+0,1,4
+0,2,6
+1,2,3
+2,3,8
+2,4,4
+3,4,2
+3,6,7
+4,6,3
+6,7,4

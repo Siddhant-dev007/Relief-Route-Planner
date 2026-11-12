@@ -1,0 +1,6 @@
+Algorithm,ShelterID,ShelterName,Urgency,Reachable,DistanceKm,RequestedValue,DeliveredValue,FulfilmentPercent,PendingPackages
+Knapsack DP,1,Riverside School,9,yes,9,405,270,66.7,2
+Knapsack DP,2,Hilltop Temple,6,yes,16,180,96,53.3,2
+Knapsack DP,3,City Stadium,8,yes,13,408,176,43.1,4
+Knapsack DP,4,Market Hall,5,yes,17,100,0,0.0,4
+Knapsack DP,5,North Clinic,10,yes,6,550,410,74.5,2

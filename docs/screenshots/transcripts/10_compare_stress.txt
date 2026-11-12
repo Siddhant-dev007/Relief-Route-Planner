@@ -1,0 +1,74 @@
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+No scenario loaded.
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ LOAD SCENARIO
+==================================================
+1. Normal operations
+2. Capacity shock + road closure
+3. Large-data stress
+4. Load from CSV file
+0. Back
+
+Choice: 
+Loaded 'Large-Data Stress Scenario': 40 shelters, 413 packages, 25 vehicles, 60 nodes.
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Large-Data Stress Scenario
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+==================================================
+ ALGORITHM COMPARISON (SAME INPUT)
+==================================================
+Algorithm         Value    Gap%  Worst%  Pending   Time(ms)  Operations   Memory
+--------------------------------------------------------------------------------
+Knapsack DP        6551    0.0%    0.0%      266      0.302       22683   8.8 KB
+Greedy             6540    0.2%    0.0%      264      0.208        1167    960 B
+Branch & Bound     6551    0.0%    0.0%      266      0.244        1331  36.1 KB
+
+DP and Branch & Bound give the best load for each vehicle;
+Greedy may leave value behind (positive gap).
+
+==================================================
+ RELIEF LOAD-AND-ROUTE PLANNER
+==================================================
+Active scenario: Large-Data Stress Scenario
+
+1. Load Scenario
+2. View Scenario
+3. Plan Operation
+4. Routes & Road Damage
+5. Compare Algorithms (current data)
+6. Benchmarks
+7. Manual Entry
+8. Export Reports
+0. Exit
+
+Choice: 
+Goodbye.
