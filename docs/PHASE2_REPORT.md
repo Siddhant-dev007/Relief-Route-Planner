@@ -86,7 +86,7 @@ One dispatch round: each available vehicle makes one trip to one shelter.
 |---|---|---|
 | Scope | One shelter, one vehicle, typed in | Many shelters, vehicles and roads from a scenario file; manual entry kept |
 | Loading algorithms | DP, Greedy | DP, Greedy, **Least-cost Branch & Bound** |
-| Greedy sort | Selection sort, O(n²), float ratios | **Merge sort** O(n log n), exact integer ratio comparison (cross-multiplication) |
+| Greedy sort | Selection sort, O(n²), float ratios | **Merge sort** O(n log n), ratio value/weight as a double, with explicit tie-breaks |
 | Routing | None | **Dijkstra** on the road network; road closure and reopening; unreachable shelters |
 | Lookup | Linear | **Binary search** over a sorted shelter-ID index |
 | Planning | Fill one vehicle | Shelter priority, largest vehicle first, fairness rule, per-shelter fulfilment |
@@ -170,7 +170,7 @@ KNAPSACK-DP(weight, value, n, W)
 KNAPSACK-GREEDY(weight, value, n, W)
     order = [1..n]
     MERGE-SORT(order) by ratio value/weight, descending
-        // compare a, b with value[a]·weight[b] vs value[b]·weight[a]  (no division)
+        // ratio = value / weight
         // ties: higher value first, then lower index
     room = W; total = 0
     for each i in order:
