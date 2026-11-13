@@ -2,7 +2,7 @@
 
 **Course:** CSEG3053 Design and Analysis of Algorithms
 **Project 13:** Disaster Relief Supply Distribution Platform
-**Team:** _<names, roll numbers, SAP IDs>_
+**Student:** _<name, roll number, SAP ID>_ (individual project)
 **Date:** _<submission date>_
 
 ---
@@ -527,7 +527,19 @@ roads and becomes UNREACHABLE; Riverside School is now reached via 0 → 2 → 4
 | 3 Boundary (exact fit) | Urgency 10; Medicine 20 kg sev 10; W = 20 | Medicine, 20 kg, remaining 0, value 100 | All three: Medicine, 20/20 kg, value 100 | Pass |
 | 4 Invalid (nothing fits) | Urgency 8; packages 10/20/30 kg; W = 5 | None selected, 0 kg, remaining 5, value 0 | All three: nothing selected, 0/5 kg, value 0 | Pass |
 
-> Copy the "Actual" column into the Phase I test-case document as well.
+The original Phase I program (`Phase_1/src/relief.exe`, option 3 "Compare Both")
+was also re-run on the same four inputs and gives the expected result in every case:
+
+| # | Phase I program — Greedy | Phase I program — DP |
+|---|---|---|
+| 1 | Medicine + Water, 30 kg, remaining 10, value 153 | Medicine + Food, 40 kg, remaining 0, value 162 |
+| 2 | Medicine + Water, 30 kg, remaining 20, value 160 | Water + Food, 50 kg, remaining 0, value 200 |
+| 3 | Medicine, 20 kg, remaining 0, value 100 | Medicine, 20 kg, remaining 0, value 100 |
+| 4 | None, 0 kg, remaining 5, value 0 | None, 0 kg, remaining 5, value 0 |
+
+Phase II adds invalid-input cases that Phase I lacked (urgency 0 / 11, weight 0,
+malformed files — tests T9–T14 below), because test case 4 is really a boundary case
+(nothing fits) rather than invalid input.
 
 ### 9.2 Automated test suite — `mingw32-make check`
 

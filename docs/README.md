@@ -19,13 +19,13 @@ Checklist (CSEG3053 Two-Phase Hackathon, Phase II and Final Submission):
 - [x] Screenshots of the working product — §10
 - [x] Changes since Phase I — §2
 - [x] Limitations and reflection — §11
-- [ ] Signed declaration — `DECLARATION.md` (team must fill in and sign)
+- [ ] Signed declaration — `DECLARATION.md` (fill in and sign yourself)
 
 Handbook extras:
 
 - [x] Merge-sort recurrence with the Master Theorem — §7.1
 - [x] 0/1 knapsack NP-hardness with a reduction from subset sum — §7.2
 
-Still for the team: names/IDs in the report header, timing-machine details in §8,
+Still for you: name/IDs in the report header, timing-machine details in §8,
 the "Actual" column in the Phase I test document (values in §9.1), and the signed
 declaration.
