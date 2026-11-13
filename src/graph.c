@@ -1,5 +1,3 @@
-#include <string.h>
-
 #include "graph.h"
 
 static int validNode(const RoadNetwork *graph, int node)
@@ -12,8 +10,17 @@ int graphInit(RoadNetwork *graph, int nodeCount)
     if (graph == NULL || nodeCount < 1 || nodeCount > MAX_NODES)
         return 0;
 
-    memset(graph, 0, sizeof(*graph));
     graph->nodeCount = nodeCount;
+
+    for (int i = 0; i < nodeCount; i++)
+    {
+        for (int j = 0; j < nodeCount; j++)
+        {
+            graph->distance[i][j] = NO_ROAD;
+            graph->closed[i][j] = 0;
+        }
+    }
+
     return 1;
 }
 
