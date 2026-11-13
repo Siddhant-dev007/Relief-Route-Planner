@@ -5,7 +5,7 @@
 | `PHASE2_REPORT.md` | Full Phase II report (all checklist items below) |
 | `MENU_GUIDE.md` | Plain-language guide to every menu |
 | `DECLARATION.md` | Declaration template — fill in and sign |
-| `graphs/` | 7 charts built from `results/benchmark.csv` |
+| `graphs/` | 7 charts built from `results/benchmark.csv`, plus `city_map_normal.png` and `city_map_shock.png` (road maps with truck routes, from `tools/draw_city_map.py`) |
 | `screenshots/` | 14 captures of the running program; full text in `screenshots/transcripts/` |
 
 Checklist (CSEG3053 Two-Phase Hackathon, Phase II and Final Submission):

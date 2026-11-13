@@ -74,6 +74,14 @@ Only displays information; nothing is changed or calculated.
 | **4. Road network** | Every road: which two locations it joins, its length, and whether it is open or CLOSED. Also shows where the warehouse is. |
 | **0. Back** | Return to the main menu. |
 
+**What the Normal map looks like** (numbers on roads are kilometres; coloured lines
+are where the trucks go in the DP plan):
+
+![Normal scenario map](graphs/city_map_normal.png)
+
+Location 0 is the warehouse. Locations 1 and 4 are just road junctions. The
+other five locations are the shelters.
+
 ---
 
 ## 3. Plan Operation — "Make the delivery plan"

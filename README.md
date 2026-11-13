@@ -81,7 +81,7 @@ src/
   main.c
 tests/                unit, integration, edge-case and stress tests
 data/                 scenario files (see below)
-tools/                generator for the stress dataset
+tools/                stress-dataset generator, city map drawing
 results/              CSV output written by the program
 docs/                 Phase II documents
 ```

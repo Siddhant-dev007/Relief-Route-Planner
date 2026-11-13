@@ -498,6 +498,22 @@ explores 119 533 nodes at n = 40 (20 ms, ~700× DP). At n = 200 it hits the
 truck from 0 → 2 → 4 → 6 (13 km) to 0 → 1 → 3 → 6 (16 km); reopening restores 13 km.
 The load does not change; only the route does.
 
+### City maps — Normal and Shock scenarios
+Schematic layout (not to scale); every road shows its real length in km. Coloured
+lines are the truck routes of the DP plan. Drawn by `tools/draw_city_map.py`.
+
+![Normal scenario map](graphs/city_map_normal.png)
+
+Node 0 is the warehouse; nodes 1 and 4 are road junctions; the other five nodes are
+shelters. Three of the four routes share the 0–2 road, because North Clinic is the
+gateway to the east of the map.
+
+![Shock scenario map](graphs/city_map_shock.png)
+
+Roads 1–3, 4–5 and 5–7 are destroyed (red dashed). Hilltop Temple loses both of its
+roads and becomes UNREACHABLE; Riverside School is now reached via 0 → 2 → 4 → 3
+(12 km instead of 9 km).
+
 ---
 
 ## 9. Testing
