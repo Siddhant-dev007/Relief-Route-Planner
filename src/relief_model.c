@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 #include "relief_model.h"
 #include "sort_search.h"
 
@@ -15,14 +12,29 @@ Status scenarioInit(Scenario *scenario, const char name[],
     if (scenario == NULL || name == NULL)
         return STATUS_INVALID_INPUT;
 
-    memset(scenario, 0, sizeof(*scenario));
-    snprintf(scenario->name, sizeof(scenario->name), "%s", name);
+    // Copy scenario name (one place is kept for the '\0')
+    int i = 0;
 
+    while (name[i] != '\0' && i < (int)sizeof(scenario->name) - 1)
+    {
+        scenario->name[i] = name[i];
+        i++;
+    }
+
+    scenario->name[i] = '\0';
+
+    // Initially there are no shelters, packages or vehicles
+    scenario->shelterCount = 0;
+    scenario->packageCount = 0;
+    scenario->vehicleCount = 0;
+
+    // Initialize road network and check depot
     if (!graphInit(&scenario->roads, nodeCount) ||
         depot < 0 || depot >= nodeCount)
         return STATUS_INVALID_INPUT;
 
     scenario->depot = depot;
+
     return STATUS_OK;
 }
 
