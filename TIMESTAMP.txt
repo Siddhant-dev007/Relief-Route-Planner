@@ -1,0 +1,23 @@
+PHASE II - Relief Load-and-Route Planner (CSEG3053, Project 13)
+================================================================
+
+This folder is the Phase II version. It builds on ..\Phase_1.
+Full change history with dates:  git log --date=iso
+
+Milestones:
+  2026-11-10  Phase I presented (folder ..\Phase_1)
+  2026-11-12  Phase II product, tests, report, graphs, screenshots (commit c745fce)
+  2026-11-12  Greedy comparison simplified to value/weight ratio (5ca1278)
+  2026-11-13  graphInit and scenarioInit rewritten without memset (7f5430a, 93e4912)
+  2026-11-13  City maps for Normal and Shock scenarios (74ca248)
+  2026-11-13  Report: individual wording, Phase I results re-run (734514f)
+
+Contents:
+  src/      15 modules + main.c   tests/  161 automated checks
+  data/     4 scenario files      docs/   report, menu guide, graphs,
+  results/  CSV outputs                   screenshots, declaration
+  tools/    stress-data generator, city map drawing
+
+Build and run:  mingw32-make check   then   mingw32-make run
+
+Note: ..\Phase_2 is an earlier, larger prototype and is not part of this submission.

@@ -27,5 +27,5 @@ Handbook extras:
 - [x] 0/1 knapsack NP-hardness with a reduction from subset sum — §7.2
 
 Still for you: name/IDs in the report header, timing-machine details in §8,
-the "Actual" column in the Phase I test document (values in §9.1), and the signed
+and the signed
 declaration.
