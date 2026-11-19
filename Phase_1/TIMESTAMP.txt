@@ -1,0 +1,25 @@
+PHASE I - Disaster Relief Supply Distribution Platform (CSEG3053, Project 13)
+==========================================================================
+
+This folder is the Phase I version presented for evaluation.
+Its contents were not modified after presentation.
+
+File timestamps (last modified):
+  src/relief.c, knapsack.c, relief.h, knapsack.h ...... 2026-11-10 12:48
+  src/greedy.c, greedy.h ................................ 2026-11-10 13:05
+  src/main.c, validation.c, validation.h ............... 2026-11-10 13:16
+  src/relief.exe (build) ................................ 2026-11-10 13:17
+  Documentation/Daa_ProjectProposal.docx ................ 2026-11-10 11:50
+  Documentation/Complexity_Analysis.docx ................ 2026-11-10 16:23
+  Documentation/Workflow_and_Pseudocode.docx ............ 2026-11-10 16:25
+  Documentation/Test_Cases_Formatted.docx ............... 2026-11-10 16:33
+
+Contents:
+  src/            0/1 knapsack (DP) and greedy 0/1 heuristic, one shelter, one vehicle
+  Documentation/  proposal, workflow + pseudocode, complexity analysis,
+                  test cases (expected + actual screenshots)
+
+Run:  cd src  then  relief.exe   (or rebuild: gcc *.c -o relief.exe)
+
+Next phase: ..\phase_2(b)  (see its TIMESTAMP.txt)
+This note was added on 2026-11-13.
