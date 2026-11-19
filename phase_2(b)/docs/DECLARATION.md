@@ -4,9 +4,9 @@
 **Project 13:** Disaster Relief Supply Distribution Platform (Relief Load-and-Route Planner)
 **Format:** Individual, offline hackathon
 
-| Name | Roll No. | SAP ID | Signature | Date |
-|---|---|---|---|---|
-| | | | | |
+| Name | Roll No. / SAP ID | Signature | Date |
+|---|---|---|---|
+| Siddhant Sharma | 590023054 | | 21 November 2026 |
 
 I declare that:
 

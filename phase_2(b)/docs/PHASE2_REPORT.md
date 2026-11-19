@@ -2,8 +2,8 @@
 
 **Course:** CSEG3053 Design and Analysis of Algorithms
 **Project 13:** Disaster Relief Supply Distribution Platform
-**Student:** _<name, roll number, SAP ID>_ (individual project)
-**Date:** _<submission date>_
+**Student:** Siddhant Sharma, Roll No. / SAP ID 590023054 (individual project)
+**Date:** 21 November 2026
 
 ---
 
