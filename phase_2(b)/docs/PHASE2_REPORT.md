@@ -442,7 +442,7 @@ is reproducible. Each row is verified: `Correct = 1` means the returned selectio
 fits the capacity and adds up to the returned value; `Optimal` is the DP answer, and
 `GapPercent` compares against it. Fast runs are repeated (up to 200 times / 50 ms)
 and averaged so the timer can resolve them. Raw data: `results/benchmark.csv` (51 rows).
-Timing machine: _<CPU, RAM, Windows 11, GCC 15.1 -O2>_.
+Timing machine: Windows 11, GCC 15.1 with -O2.
 
 **Profiles.** *Random*: weights 1–50 kg, values 1–100, W = half the total weight
 (the hardest middle ground). *Correlated*: value = weight + 10 (all ratios similar),

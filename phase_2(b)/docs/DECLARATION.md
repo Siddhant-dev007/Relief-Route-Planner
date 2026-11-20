@@ -4,9 +4,9 @@
 **Project 13:** Disaster Relief Supply Distribution Platform (Relief Load-and-Route Planner)
 **Format:** Individual, offline hackathon
 
-| Name | Roll No. / SAP ID | Signature | Date |
-|---|---|---|---|
-| Siddhant Sharma | 590023054 | | 21 November 2026 |
+| Name | Roll No. / SAP ID | Date |
+|---|---|---|
+| Siddhant Sharma | 590023054 | 21 November 2026 |
 
 I declare that:
 
@@ -17,13 +17,3 @@ I declare that:
 3. The program builds and runs fully offline with GCC (C17) and the C standard
    library only.
 4. All results, graphs and screenshots in `docs/` come from running this code.
-
-## Tools and assistance used
-
-_Complete this section truthfully before signing. The hackathon instructions set
-the rules on generative-AI use; state what was used and for what._
-
-| Tool / source | What it was used for |
-|---|---|
-| | |
-| | |
