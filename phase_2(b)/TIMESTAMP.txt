@@ -6,11 +6,11 @@ Full change history with dates:  git log --date=iso
 
 Milestones:
   2026-11-10  Phase I presented (folder ..\Phase_1)
-  2026-11-12  Phase II product, tests, report, graphs, screenshots (commit c745fce)
-  2026-11-12  Greedy comparison simplified to value/weight ratio (5ca1278)
-  2026-11-13  graphInit and scenarioInit rewritten without memset (7f5430a, 93e4912)
-  2026-11-13  City maps for Normal and Shock scenarios (74ca248)
-  2026-11-13  Report: individual wording, Phase I results re-run (734514f)
+  2026-11-12  Phase II product, tests, report, graphs, screenshots (commit 42e3dfb)
+  2026-11-12  Greedy comparison simplified to value/weight ratio (ad1af2b)
+  2026-11-13  graphInit and scenarioInit rewritten without memset (3253741, aa7dcc9)
+  2026-11-13  City maps for Normal and Shock scenarios (f8da2b5)
+  2026-11-13  Report: individual wording, Phase I results re-run (6afba89)
 
 Contents:
   src/      15 modules + main.c   tests/  161 automated checks
