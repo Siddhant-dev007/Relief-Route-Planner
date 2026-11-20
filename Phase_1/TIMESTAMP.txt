@@ -19,7 +19,7 @@ Contents:
   Documentation/  proposal, workflow + pseudocode, complexity analysis,
                   test cases (expected + actual screenshots)
 
-Run:  cd src  then  relief.exe   (or rebuild: gcc *.c -o relief.exe)
+Run:  cd src  then  gcc *.c -o relief.exe  then  relief.exe
 
 Next phase: ..\phase_2(b)  (see its TIMESTAMP.txt)
 This note was added on 2026-11-13.
